@@ -1,0 +1,9 @@
+{
+  "short_name": "RUM",
+  "name": "Rowerowe ULTRA Maratony",
+  "icons": [],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
