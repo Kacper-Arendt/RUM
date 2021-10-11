@@ -1,5 +1,7 @@
 import React from 'react';
 import {createGlobalStyle} from "styled-components";
+import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
+import {Home} from "./pages/Pages";
 
 const GlobalStyle = createGlobalStyle`
   *,
@@ -29,6 +31,14 @@ function App() {
     return (
         <>
             <GlobalStyle/>
+            <Router>
+                <Switch>
+                    <Route path='/'>
+                        <Home/>
+                    </Route>
+                </Switch>
+            </Router>
+
         </>
     );
 }
