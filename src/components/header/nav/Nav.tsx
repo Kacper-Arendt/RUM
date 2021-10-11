@@ -1,6 +1,6 @@
 import styled from 'styled-components';
-import {Link} from 'react-router-dom'
-import {FaHome} from "react-icons/fa";
+import {Link} from 'react-router-dom';
+import {device} from "../../../models/MediaQueries";
 
 interface IProps {
     isOpen: boolean,
@@ -20,46 +20,88 @@ const Nav = styled.nav<IProps>`
   z-index: 100;
   transition: transform 0.3s ease-in-out;
   transform: ${(props: IProps) => props.isOpen ? 'translateY(0)' : 'translateY(100%)'};
-  font-size: 2.5rem;
   background: #f39c12;
+
+
+@media${device.big} {
+  height: 5rem;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  transform: translateY(0);
+  background: #F9F7F4;
+}
 `;
 
 const StyledLink = styled(Link)`
-  width: 60%;
+  width: 75%;
+  max-width: 40rem;
   display: flex;
   justify-content: start;
   align-items: center;
-  padding: 1rem 2rem;
-  text-align: center;
-  letter-spacing: 0.5rem;
-  font-weight: bold;
+  padding: 1.2rem 2rem;
+  border-bottom: black 1px solid;
+  font-size: 1.5em;
   text-decoration: none;
-  text-transform: uppercase;
-  color: black;
   transition: color 0.2s linear;
-  border-bottom: black 2px solid;
-  
-  :first-of-type{
+
+  :first-of-type {
     margin-top: 7rem;
   }
 
-  p {
-    margin-right: .8rem;
+  :hover {
+    p {
+      color: white;
+    }
   }
 
-  svg {
-    font-size: 1.2em;
+@media${device.small} {
+  font-size: 2em;
+  padding: 2rem;
+} @media${device.big} {
+  flex-direction: column;
+  width: auto;
+  border: none;
+  margin: .3rem;
+  padding: 1.5rem;
+  font-size: 1em;
+
+  :first-of-type {
+    margin-top: 0;
   }
 
-  &:hover {
-    color: white;
-  }`
+  :hover {
+    p {
+      color: #f39c12;
+    }
+  }
+}
+`
+
+const P = styled.p`
+  margin-right: .5rem;
+  color: black;
+  white-space: nowrap;
+  letter-spacing: .3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+`
+
+const Info = styled(P)`
+  font-size: .7em;
+  color: grey;
+  text-transform: capitalize;
+  letter-spacing: .2rem;
+`
 
 export const Navigation = (props: IProps) => {
-
     return (
         <Nav isOpen={props.isOpen}>
-            <StyledLink to='/' onClick={props.setIsOpen}><p>Home </p><FaHome/></StyledLink>
+            <StyledLink to='#' onClick={props.setIsOpen}><P>Short</P><Info>up to 100km</Info></StyledLink>
+            <StyledLink to='#' onClick={props.setIsOpen}><P>Medium</P><Info>up to 250km</Info></StyledLink>
+            <StyledLink to='#' onClick={props.setIsOpen}><P>Long</P><Info>up to 600km</Info></StyledLink>
+            <StyledLink to='#' onClick={props.setIsOpen}><P>Ultra</P><Info>up to 100km</Info></StyledLink>
+            <StyledLink to='#' onClick={props.setIsOpen}><P>Insane</P><Info>over 100km</Info></StyledLink>
         </Nav>
 
     )

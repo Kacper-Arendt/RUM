@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import {device} from '../../../models/Models';
 
 const StyledBurger = styled.button<MenuIProps>`
   position: fixed;
@@ -10,10 +11,10 @@ const StyledBurger = styled.button<MenuIProps>`
   justify-content: space-around;
   width: 3.5rem;
   height: 3.5rem;
-  background: transparent;
-  border: none;
-  cursor: pointer;
   padding: 0;
+  border: none;
+  background: transparent;
+  cursor: pointer;
   z-index: 1000;
 
   &:focus {
@@ -40,6 +41,26 @@ const StyledBurger = styled.button<MenuIProps>`
       transform: ${(props: MenuIProps) => props.isOpen ? 'rotate(-45deg) ' : 'rotate(0)'};
     }
   }
+
+@media${device.small} {
+  width: 4rem;
+  height: 4rem;
+
+  div {
+    width: 4rem;
+    height: .4rem;
+  }
+} @media${device.medium} {
+  width: 4.5rem;
+  height: 4.5rem;
+
+  div {
+    width: 4.5rem;
+    height: .45rem;
+  }
+} @media${device.big} {
+  display: none;
+}
 `;
 
 export interface MenuIProps {

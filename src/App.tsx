@@ -2,7 +2,8 @@ import React from 'react';
 import {createGlobalStyle} from "styled-components";
 import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
 import {Home} from "./pages/Pages";
-import { Header } from './components/Components';
+import {Header} from './components/Components';
+import {device} from "./models/MediaQueries";
 
 const GlobalStyle = createGlobalStyle`
   *,
@@ -18,6 +19,14 @@ const GlobalStyle = createGlobalStyle`
     font-size: 62.5%;
     width: 100%;
     height: 100%;
+    
+  @media${device.medium} {
+    font-size: 71.25%;
+  } @media${device.big} {
+    font-size: 81.25%;
+  } @media${device.large} {
+    font-size: 100%;
+  }
   }
 
   body {
@@ -27,7 +36,6 @@ const GlobalStyle = createGlobalStyle`
     background-color: #ecf0f1;
   }
 `;
-
 
 function App() {
     return (
