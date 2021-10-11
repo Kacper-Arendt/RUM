@@ -1,13 +1,9 @@
 import styled from 'styled-components';
 import {Link} from 'react-router-dom';
 import {device} from "../../../models/MediaQueries";
+import {IsOpenInterface} from "../../../models/Helpers";
 
-interface IProps {
-    isOpen: boolean,
-    setIsOpen?: () => void,
-}
-
-const Nav = styled.nav<IProps>`
+const Nav = styled.nav<IsOpenInterface>`
   position: fixed;
   top: 0;
   left: 0;
@@ -19,17 +15,18 @@ const Nav = styled.nav<IProps>`
   align-content: start;
   z-index: 100;
   transition: transform 0.3s ease-in-out;
-  transform: ${(props: IProps) => props.isOpen ? 'translateY(0)' : 'translateY(100%)'};
+  transform: ${(props: IsOpenInterface) => props.isOpen ? 'translateY(0)' : 'translateY(100%)'};
   background: #f39c12;
 
 
 @media${device.big} {
+  position: static;
   height: 5rem;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   transform: translateY(0);
-  background: #F9F7F4;
+  background-color: transparent;
 }
 `;
 
@@ -62,9 +59,9 @@ const StyledLink = styled(Link)`
   flex-direction: column;
   width: auto;
   border: none;
-  margin: .3rem;
-  padding: 1.5rem;
   font-size: 1em;
+  padding: 0 1.5rem;
+  margin: 0;
 
   :first-of-type {
     margin-top: 0;
@@ -94,14 +91,14 @@ const Info = styled(P)`
   letter-spacing: .2rem;
 `
 
-export const Navigation = (props: IProps) => {
+export const Navigation = (props: IsOpenInterface) => {
     return (
         <Nav isOpen={props.isOpen}>
             <StyledLink to='#' onClick={props.setIsOpen}><P>Short</P><Info>up to 100km</Info></StyledLink>
             <StyledLink to='#' onClick={props.setIsOpen}><P>Medium</P><Info>up to 250km</Info></StyledLink>
             <StyledLink to='#' onClick={props.setIsOpen}><P>Long</P><Info>up to 600km</Info></StyledLink>
-            <StyledLink to='#' onClick={props.setIsOpen}><P>Ultra</P><Info>up to 100km</Info></StyledLink>
-            <StyledLink to='#' onClick={props.setIsOpen}><P>Insane</P><Info>over 100km</Info></StyledLink>
+            <StyledLink to='#' onClick={props.setIsOpen}><P>Ultra</P><Info>up to 1000km</Info></StyledLink>
+            <StyledLink to='#' onClick={props.setIsOpen}><P>Insane</P><Info>over 1000km</Info></StyledLink>
         </Nav>
 
     )

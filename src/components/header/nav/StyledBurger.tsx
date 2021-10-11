@@ -1,17 +1,13 @@
 import React from 'react';
 import styled from 'styled-components';
-import {device} from '../../../models/Models';
+import {device, IsOpenInterface} from '../../../models/Models';
 
-const StyledBurger = styled.button<MenuIProps>`
-  position: fixed;
-  top: 3%;
-  right: 1.5rem;
+const StyledBurger = styled.button<IsOpenInterface>`
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   width: 3.5rem;
   height: 3.5rem;
-  padding: 0;
   border: none;
   background: transparent;
   cursor: pointer;
@@ -30,15 +26,15 @@ const StyledBurger = styled.button<MenuIProps>`
     background-color: #000;
 
     :first-child {
-      transform: ${(props: MenuIProps) => props.isOpen ? 'rotate(45deg) ' : 'rotate(0)'};
+      transform: ${(props: IsOpenInterface) => props.isOpen ? 'rotate(45deg) ' : 'rotate(0)'};
     }
 
     :nth-child(2) {
-      opacity: ${(props: MenuIProps) => props.isOpen ? '0' : '1'};
+      opacity: ${(props: IsOpenInterface) => props.isOpen ? '0' : '1'};
     }
 
     :nth-child(3) {
-      transform: ${(props: MenuIProps) => props.isOpen ? 'rotate(-45deg) ' : 'rotate(0)'};
+      transform: ${(props: IsOpenInterface) => props.isOpen ? 'rotate(-45deg) ' : 'rotate(0)'};
     }
   }
 
@@ -50,25 +46,13 @@ const StyledBurger = styled.button<MenuIProps>`
     width: 4rem;
     height: .4rem;
   }
-} @media${device.medium} {
-  width: 4.5rem;
-  height: 4.5rem;
-
-  div {
-    width: 4.5rem;
-    height: .45rem;
-  }
 } @media${device.big} {
   display: none;
 }
 `;
 
-export interface MenuIProps {
-    isOpen: boolean,
-    setIsOpen?: () => void,
-}
 
-export const Burger = (props: MenuIProps) => {
+export const Burger = (props: IsOpenInterface) => {
     return (
         <StyledBurger isOpen={props.isOpen} onClick={props.setIsOpen}>
             <div></div>
