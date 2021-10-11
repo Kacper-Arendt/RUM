@@ -2,6 +2,7 @@ import React from 'react';
 import {createGlobalStyle} from "styled-components";
 import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
 import {Home} from "./pages/Pages";
+import { Header } from './components/Components';
 
 const GlobalStyle = createGlobalStyle`
   *,
@@ -23,6 +24,7 @@ const GlobalStyle = createGlobalStyle`
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
     line-height: 150%;
+    background-color: #ecf0f1;
   }
 `;
 
@@ -32,6 +34,7 @@ function App() {
         <>
             <GlobalStyle/>
             <Router>
+                <Header/>
                 <Switch>
                     <Route path='/'>
                         <Home/>

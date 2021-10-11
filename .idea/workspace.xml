@@ -96,8 +96,11 @@
       <change afterPath="$PROJECT_DIR$/../oko-task1/src/react-app-env.d.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../oko-task1/tsconfig.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../quiz-lab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Home.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Pages.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Components.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/header/Header.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/header/nav/Menu.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/header/nav/Nav.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/header/nav/StyledBurger.tsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../todo-app" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../weather-state/.github/workflows/a.yml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../weather-state/.gitignore" afterDir="false" />
@@ -132,6 +135,7 @@
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../weather-state/.env" beforeDir="false" afterPath="$PROJECT_DIR$/../weather-state/.env" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -185,7 +189,7 @@
       <option name="presentableId" value="Default" />
       <updated>1633698997910</updated>
       <workItem from="1633698999368" duration="562000" />
-      <workItem from="1633932507156" duration="3353000" />
+      <workItem from="1633932507156" duration="8390000" />
     </task>
     <servers />
   </component>
