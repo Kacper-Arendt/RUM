@@ -31,7 +31,7 @@ const Button = styled.button`
 export const Search = () => {
     return (
             <StyledForm>
-                <Input placeholder='Type Race Name' type="text"/>
+                <Input placeholder='Szukaj wyścigu' type="text"/>
                 <Button type='submit'>
                     <FaSearch/>
                 </Button>

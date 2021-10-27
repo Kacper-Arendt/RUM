@@ -2,143 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b757e248-bc51-4148-850d-077933c735cd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/typescript.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.prettierrc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../green-world/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../green-world/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../green-world/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../green-world/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../green-world/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../green-world/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../green-world/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../green-world/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../green-world/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../green-world/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../green-world/src/App.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../green-world/src/Context/CartContext.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../green-world/src/Context/CartReducers.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../green-world/src/Models/CartContext.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../green-world/src/Models/IProduct.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../green-world/src/Models/MediaQueries.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../green-world/src/components/Cart/Cart.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../green-world/src/components/Cart/Product.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../green-world/src/components/Cart/Summary.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../green-world/src/components/Components.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../green-world/src/components/Footer.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../green-world/src/components/Homepage/BestBuys.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../green-world/src/components/Homepage/Discounts.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../green-world/src/components/Homepage/Header/Header.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../green-world/src/components/Homepage/Header/Image.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../green-world/src/components/Homepage/Homepage.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../green-world/src/components/Homepage/SeeAll.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../green-world/src/components/Market/Market.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../green-world/src/components/Nav/Categories.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../green-world/src/components/Nav/NavBar.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../green-world/src/components/Nav/SearchBar.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../green-world/src/components/Products/Product.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../green-world/src/components/Products/ProductsData.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../green-world/src/components/UI/Button.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../green-world/src/components/UI/Carousel.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../green-world/src/components/UI/UIElements.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../green-world/src/components/UI/WrapperEl.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../green-world/src/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../green-world/src/react-app-env.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../green-world/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kacper-koduje/.firebase/hosting.YnVpbGQ.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kacper-koduje/.firebaserc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kacper-koduje/.github/workflows/firebase-hosting-merge.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kacper-koduje/.github/workflows/firebase-hosting-pull-request.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kacper-koduje/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kacper-koduje/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kacper-koduje/firebase.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kacper-koduje/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kacper-koduje/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kacper-koduje/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kacper-koduje/src/App.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kacper-koduje/src/Models/MediaQueries.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kacper-koduje/src/components/About.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kacper-koduje/src/components/Componets.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kacper-koduje/src/components/Contact/AndThisIsJustBeginning.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kacper-koduje/src/components/Contact/Contact.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kacper-koduje/src/components/Footer.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kacper-koduje/src/components/Header.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kacper-koduje/src/components/Projects.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kacper-koduje/src/components/Skills.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kacper-koduje/src/components/UI/Burger.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kacper-koduje/src/components/UI/Menu.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kacper-koduje/src/components/UI/Navigation.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kacper-koduje/src/components/UI/ProjectData.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kacper-koduje/src/components/UI/Spinner.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kacper-koduje/src/components/UI/Wrapper.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kacper-koduje/src/images/Images.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kacper-koduje/src/images/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kacper-koduje/src/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kacper-koduje/src/react-app-env.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../kacper-koduje/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../my-gear" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../oko-task1/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../oko-task1/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../oko-task1/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../oko-task1/.idea/oko-task1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../oko-task1/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../oko-task1/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../oko-task1/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../oko-task1/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../oko-task1/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../oko-task1/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../oko-task1/public/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../oko-task1/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../oko-task1/src/App.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../oko-task1/src/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../oko-task1/src/react-app-env.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../oko-task1/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../quiz-lab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/header/search/Search.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/Helpers.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../todo-app" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../weather-state/.github/workflows/a.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../weather-state/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../weather-state/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../weather-state/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../weather-state/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../weather-state/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../weather-state/src/App.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../weather-state/src/Models/App.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../weather-state/src/Models/City.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../weather-state/src/Models/MediaQueries.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../weather-state/src/components/AddCity.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../weather-state/src/components/Cities.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../weather-state/src/components/City.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../weather-state/src/components/LocalStorageHandler.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../weather-state/src/components/UI/CityMenu.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../weather-state/src/components/UI/Popup.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../weather-state/src/components/UI/Spinner.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../weather-state/src/images/backgroundEarth.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../weather-state/src/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../weather-state/src/react-app-env.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../weather-state/src/redux/appSlice.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../weather-state/src/redux/city/citySlice.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../weather-state/src/redux/hooks.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../weather-state/src/redux/store.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../weather-state/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../redux-toolkit/src/App.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../redux-toolkit/src/index.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../redux-toolkit/src/react-app-env.d.ts" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI/NoData.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UI/Wrapper.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/Search.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Search.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/header/nav/Nav.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/nav/Nav.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/nav/StyledBurger.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/nav/StyledBurger.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/Models.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Models.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../weather-state/.env" beforeDir="false" afterPath="$PROJECT_DIR$/../weather-state/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="feat_main_page_layout" />
+      </map>
+    </option>
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1zE2bQfZQh06dSOlxfFTOThYwix" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -154,13 +47,19 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets" />
+    </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
@@ -187,6 +86,9 @@
       <updated>1633698997910</updated>
       <workItem from="1633698999368" duration="562000" />
       <workItem from="1633932507156" duration="21371000" />
+      <workItem from="1634117314282" duration="667000" />
+      <workItem from="1634475532481" duration="1645000" />
+      <workItem from="1635359578596" duration="2827000" />
     </task>
     <servers />
   </component>
@@ -207,5 +109,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
   </component>
 </project>

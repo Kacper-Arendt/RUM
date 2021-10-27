@@ -94,11 +94,12 @@ const Info = styled(P)`
 export const Navigation = (props: IsOpenInterface) => {
     return (
         <Nav isOpen={props.isOpen}>
-            <StyledLink to='#' onClick={props.setIsOpen}><P>Short</P><Info>up to 100km</Info></StyledLink>
-            <StyledLink to='#' onClick={props.setIsOpen}><P>Medium</P><Info>up to 250km</Info></StyledLink>
-            <StyledLink to='#' onClick={props.setIsOpen}><P>Long</P><Info>up to 600km</Info></StyledLink>
-            <StyledLink to='#' onClick={props.setIsOpen}><P>Ultra</P><Info>up to 1000km</Info></StyledLink>
-            <StyledLink to='#' onClick={props.setIsOpen}><P>Insane</P><Info>over 1000km</Info></StyledLink>
+            <StyledLink to='#' onClick={props.setIsOpen}><P>Wszystkie</P><Info>Hulaj dusza</Info></StyledLink>
+            <StyledLink to='#' onClick={props.setIsOpen}><P>krótkie</P><Info>Do 100km</Info></StyledLink>
+            <StyledLink to='#' onClick={props.setIsOpen}><P>Średnie</P><Info>do 250km</Info></StyledLink>
+            <StyledLink to='#' onClick={props.setIsOpen}><P>Długie</P><Info>do 600km</Info></StyledLink>
+            <StyledLink to='#' onClick={props.setIsOpen}><P>Ultra</P><Info>do 1000km</Info></StyledLink>
+            <StyledLink to='#' onClick={props.setIsOpen}><P>Szaleństwo</P><Info>ponad 1000km</Info></StyledLink>
         </Nav>
 
     )

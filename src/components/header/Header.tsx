@@ -4,9 +4,6 @@ import styled from "styled-components";
 import {device} from "../../models/MediaQueries";
 
 const Section = styled.section`
-  position: fixed;
-  top: 0;
-  right: 0;
   width: 100%;
   display: flex;
   align-items: center;
