@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b757e248-bc51-4148-850d-077933c735cd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/UI/NoData.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UI/Wrapper.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/Search.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Search.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/nav/Nav.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/nav/Nav.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +81,10 @@
       <workItem from="1633932507156" duration="21371000" />
       <workItem from="1634117314282" duration="667000" />
       <workItem from="1634475532481" duration="1645000" />
-      <workItem from="1635359578596" duration="2827000" />
+      <workItem from="1635359578596" duration="4824000" />
+      <workItem from="1635401712885" duration="227000" />
+      <workItem from="1635538388267" duration="3578000" />
+      <workItem from="1635584894346" duration="105000" />
     </task>
     <servers />
   </component>
